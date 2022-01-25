@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-color: #5790e8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -13,26 +18,36 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-btn{
+  padding: 10px 16px;
+  background: #fff;
+  border: 0 solid transparent;
+  border-radius: 4px;
+  font-size: 20px;
+  outline-color: transparent;
+  color: rgb(55, 65, 81);
+  cursor: pointer;
+  
+}
+
+.app-btn:focus {
+  outline-width: 0;
+}
+
+.video-con{
+  margin-top: 12px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app-title{
+  margin:0;
+  padding-top: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-gp{
+  width: 650px;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 12px;
 }
